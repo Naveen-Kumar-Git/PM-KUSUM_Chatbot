@@ -1,46 +1,103 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌱 PM-KUSUM Scheme Chatbot  
+### *AI-Assisted Conversational System for Government Scheme Accessibility*
 
-## Available Scripts
+📍 **Developed during Technical Internship at BSPGCL, Patna**  
+🎯 **Focused on PM-KUSUM Scheme – Component-C**
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📌 Overview  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The **PM-KUSUM Scheme Chatbot** is a specialized conversational assistant designed to help farmers and citizens easily understand and navigate the **PM-KUSUM (Component-C) solar pump scheme**.
 
-### `npm test`
+Government policies are often complex and difficult to interpret. This chatbot simplifies that by offering **instant, accurate, and multilingual assistance through both text and voice interfaces**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Key Features  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Feature | Description |
+|--------|-------------|
+| 🗣️ Dual-Mode Interaction | Supports both **text** and **voice-based** queries |
+| 🎯 Intent Identification | Uses **rule-based keyword matching** to detect user intent |
+| 🌐 Multilingual Support | Handles **English, Hindi & Hinglish** style inputs |
+| 🛡️ Robust Error Handling | Handles **empty, unclear, or invalid queries** gracefully |
+| 🔁 Guided Fallback Flow | Prevents conversation dead-ends with recovery prompts |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack  
 
-### `npm run eject`
+| Layer | Technology |
+|------|-----------|
+| Frontend | React.js |
+| Language | TypeScript |
+| Styling | CSS Modules |
+| Tools | VS Code, Git, GitHub |
+| Voice Engine | Web Speech API |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🏗️ System Architecture  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The chatbot follows a **deterministic rule-based conversational flow**:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 1️⃣ Speech-to-Text  
+Voice input from users is converted into text using the **Web Speech API**.
 
-## Learn More
+### 2️⃣ Intent Recognition  
+User input is matched against predefined **intent trees**, such as:
+- Component-C eligibility  
+- Subsidy details  
+- Application process  
+- Installation status  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3️⃣ Response Engine  
+If a valid intent is found, the chatbot returns the corresponding answer.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4️⃣ Fallback System  
+If no intent matches, the system triggers a **guided fallback flow** to help the user rephrase or choose from suggested options.
+
+---
+
+## 🧪 Testing & Quality Assurance  
+
+To ensure reliability for government service delivery, the following testing strategies were used:
+
+- 🔍 **Boundary Testing**  
+  Verified behavior for incomplete, vague, or incorrect inputs.
+
+- 🔄 **Multi-Turn Conversation Testing**  
+  Ensured the chatbot maintains logical flow across multiple user queries.
+
+- 📊 **Data Validation**  
+  Focused on training keyword sets and intent mappings to maximize response accuracy.
+
+---
+
+## 📈 Impact  
+
+The PM-KUSUM Chatbot delivered measurable benefits:
+
+- 🌾 **Reduced friction** for farmers accessing scheme information  
+- 📞 **Lowered dependency on BSPGCL staff for manual query handling**  
+- 🕒 **Faster access** to subsidy, eligibility, and process details  
+- 📚 **Improved awareness** of renewable-energy government schemes  
+
+---
+
+## 🎯 Vision  
+
+To scale this system into a **state-wide or national digital assistant** that helps citizens access government welfare schemes through simple conversation — no paperwork, no confusion.
+
+---
+
+<div align="center">
+
+💡 *Making Government Services Simple, Accessible, and Digital.*
+
+</div>
